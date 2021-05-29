@@ -1,0 +1,82 @@
+# include"declaration.h"
+#include"welcome.h"
+#include"menu.h"
+#include"newscoresheet.h"
+
+
+int main()
+{
+system("color f1");
+int a,key;
+char b;
+file*fnew;
+
+char lastinput;
+while(TRUE)
+{
+   initializeconsolehandles();
+    welcome();
+    system("cls");
+    mwnu();
+    ch=getch();
+    char ch;    
+    switch(ch)    
+{ 
+    case'1';
+    fileopen(ch);
+    
+    case'2';
+    fileopen(ch);
+    getch();
+    
+    case'3';
+    system("cls");
+    exit(0);
+     }
+    
+  }
+    
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+#include<dos.h>
+#include<windows.h>
+#include<inbase.h>
+#include<conio.h>
+#include<time.h>
+#include<string.h>
+
+int main()
+{
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+void welcome()
+{
+    
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+void menu()
+{
+    printf("\n\n\t\t\t\tmenu:\n");
+    printf("\n\n\n1.new scoresheet: \n");
+    printf("\n\n\n2.view scoresheet: \n");
+    printf("\n\n\n3.exit: \n");
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+void date();
+void print();
+void filewrite();
+void fileread();
+void fileopen(char);
+void limitinput(int);
+
+
+
+
+void newsscoresheet()
+{
+    
+}
+
